@@ -30,6 +30,12 @@ sudo apt update && sudo apt install -y \
 
 > Dica: Em sistemas NVIDIA proprietários, mantenha o driver estável e atualizado. Em Wayland, o PTB funciona, mas em alguns setups o **Xorg** ainda oferece timing mais previsível.
 
+Caso tenha problema ao instalar as dependências, garanta que pelo menos essas estejam instaladas:
+
+```bash
+sudo apt-get install libdc1394-25 libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good libusb-1.0-0
+```
+
 ---
 
 ## 2) Baixar o Psychtoolbox
